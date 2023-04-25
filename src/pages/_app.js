@@ -3,12 +3,9 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import SSRProvider from "react-bootstrap/SSRProvider";
 
-import "../assets/sass/app.scss";
+import "../sass/app.scss";
 
 import Default from "../components/layout/Default/Default";
-import Loader from "../components/elements/Loader/Loader";
-
-
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
