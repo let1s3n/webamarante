@@ -27,6 +27,13 @@ const Home = () => {
         </Col>
       </Row>
 
+      <Row className="g-0 justify-content-around"
+        style={{ rowGap: 2 + "rem" }}>
+        <p className="fs-5 fw-bold m-0 text-center">
+          Investment multinational focused on results for progress
+        </p>
+      </Row>
+
       <Row
         className="g-0 justify-content-around"
         style={{ rowGap: 2 + "rem" }}
