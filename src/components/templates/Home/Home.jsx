@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Home = () => {
 
   return (
-    <Container className="g-0 d-flex flex-column align-items-center justify-content-center" style={{ height: "100vh", rowGap: "2rem" }}>
+    <Container fluid className="mainContainer g-0 d-flex flex-column align-items-center justify-content-center text-white" style={{ height: "100vh", rowGap: "2rem" }}>
       <Row className="g-0 justify-content-center">
         <Col xs="auto" className="g-0">
           <Image className="logo" src="/images/logo-amarante.png" />
